@@ -1,0 +1,55 @@
+#main{
+	width: 940px;
+	margin: 20px auto;
+}
+#main h1{
+	color: #047d78;
+	font-size: 24px;
+	padding: 0 0 6px 0;
+	border-bottom: 1px dashed #e5e5e5; 
+}
+#main form{
+	width: 470px;
+	margin: 30px auto;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+#main form input.text{
+	width: 186px;
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+}
+#main form table{
+	border-spacing: 10px 20px;
+}
+td.td1{
+	text-align: right;
+}
+td.td3{
+	font-size: 12px;
+	color: #4d4d4d;
+}
+#main form input.code{
+	width: 94px;
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+}
+td.td2 a{
+	font-size: 12px;
+	text-decoration: underline;
+	color: #047d78;
+	margin-left: 10px;
+	vertical-align: bottom;
+}
+td.td2 img{
+	width: 95px;
+	height: 48px;
+}
+#main form input.submit{
+	width: 58px;
+	height: 36px;
+	border: 1px solid #05c6d0;
+	background: #047d78;
+	color: #fff;
+	font-size: 16px;
+}

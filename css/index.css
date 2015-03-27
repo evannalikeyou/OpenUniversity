@@ -1,0 +1,185 @@
+#main{
+	width: 940px;
+	margin: 20px auto;
+}
+#news,#homework,#exam,#slider,#download{
+	margin-bottom: 20px;
+}
+#main_nav ul li.home_page a{
+    background: #047d78;
+}
+h1.main_head strong{
+	float: left;
+	border-top: 4px solid #c62e2e;
+	color: #c62e2e;
+	padding: 0 6px;
+	font-size: 24px;
+}
+h1.main_head p{
+	width: 800px;
+	float: right;
+	border-top: 4px solid #047d78;
+}
+h1.main_head p a{
+	float: right;
+	font-size: 14px;
+	line-height: 26px;
+	color: #047d78;
+}
+#news h1 p{
+	width: 826px;
+}
+#news_pic{
+	float: left;
+	width: 192px;
+	height: 262px;
+	padding: 4px;
+	background: #cecece;
+	margin: 16px 20px;
+}
+#news_pic img{
+	width: 192px;
+	height: 262px;
+}
+#news ul{
+	float: left;
+	font-size: 14px;
+	margin-top: 14px;
+	margin-left: 30px;
+}
+#news ul li{
+	color: #047d78;
+	margin: 10px 0;
+}
+#news ul li a{
+	color: #022a28;
+}
+.main_block{
+	float: left;
+	padding: 10px;
+	width: 450px;
+}
+.main_block h3{
+	font-size: 14px;
+	color: #047d78;
+}
+.block_img{
+	height: 140px;
+	padding: 0 17px;
+	border: 1px solid #cacaca;
+	margin-top: 6px;
+	float: left;
+}
+.block_img img{
+	width: 104px;
+	height: 140px;
+}
+.block_art{
+	padding: 10px;
+	height: 122px;
+	width: 264px;
+	float: left;
+	font-family: "SimSun";
+}
+.block_art h2{
+	font-size: 14px;
+}
+.block_art p{
+	color: #9f9f9f;
+	margin-top: 8px;
+}
+.main_block ul{
+	margin-top: 10px;
+}
+.main_block ul li{
+	padding: 5px 0;
+}
+.main_block ul li img{
+	vertical-align: middle;
+}
+.main_block ul li a{
+	vertical-align: middle;
+	color: #000;
+}
+#exam div.exam_block{
+	width: 234px;
+	margin-top: 10px;
+	float: left;
+}
+#exam div h3{
+	font-size: 14px;
+	color: #047d78;
+}
+#exam div ul{
+	margin-top: 6px;
+}
+#exam div ul li{
+	padding: 5px 0;
+}
+#exam ul li img{
+	vertical-align: middle;
+}
+#exam ul li a{
+	vertical-align: middle;
+	color: #000;
+	margin-left: 4px;
+}
+#slider{
+    width: 940px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.banner { 
+	position: relative; 
+	overflow: auto; 
+}
+.banner ul{
+	float: left;
+}
+.banner ul li { 
+	float: left; 
+}
+.banner .dots {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.banner .dots li.active {
+	background: #fff;
+	opacity: 1;
+}
+.banner .dots li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	cursor: pointer;
+	opacity: .4;
+	-webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+#download table{
+	text-align: center;
+	margin-top: 20px;
+}
+#download table tr{
+	height: 220px;
+}
+#download table tr td{
+	padding: 0 20px;
+	vertical-align: top;
+	width: 192px;
+}
+#download table img{
+	width: 104px;
+	height: 140px;
+}
+#download table p{
+	color: #ababab;
+	margin-top: 6px;
+}

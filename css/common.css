@@ -1,0 +1,142 @@
+body{
+    line-height:1.4;
+    font-family:"Microsoft YaHei UI";
+    font-size: 12px;
+    background: url(../img/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+input,textarea,select{
+    font-size:100%;    
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+img{
+	border:0;
+}
+a{
+    text-decoration: none;
+}
+input{
+    margin: 0;
+}
+/*the start of the header*/
+#logo{
+    width: 940px;
+    margin: 0 auto 20px;
+}
+#logo span{
+    font-size: 14px;
+    color: #8d8d8d;
+    float: right;
+    margin-top: 10px;
+    margin-right: 26px;
+}
+#logo span a{
+    font-size: 14px;
+    color: #8d8d8d;
+}
+#logo img{
+    float: left;
+    margin-top: 10px;
+}
+#logo form{
+    float: right;
+    margin-top: 34px;
+}
+#logo form input{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+#logo form input.search{
+    width: 310px;
+    padding-right: 50px;
+    border: 1px solid #047d78;
+}
+#logo form input.start_search{
+    width: 40px;
+    background: url(../img/search.jpg);
+    border: 0;
+    margin-left: -50px;
+}
+#main_nav{
+    width: 100%;
+    background: #3f3f3f;
+}
+#main_nav ul{
+    width: 940px;
+    margin: 0 auto;
+}
+#main_nav ul li{
+    float: left;
+    border-left: 1px solid #86a5a3;
+}
+#main_nav ul li.home_page{
+    border: 0;
+}
+#main_nav ul li a:hover{
+    background: #047d78;
+}
+#main_nav ul li a{
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 28px;
+}
+/*the end of the header*/
+/*the start of the footer*/
+#footer{
+    width: 100%;
+    border-top: 6px solid #047d78;
+    background: #2d2d2d;
+}
+#footer_info{
+    width: 742px;
+    margin: 0 auto;
+    padding: 26px;
+}
+#footer_info img{
+    float: left;
+}
+#footer_info table{
+    float: right;
+    width: 510px;
+    border-collapse: separate;
+    border-spacing: 30px 8px;
+}
+#footer_info table th{
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: 1px dashed #858585;
+}
+#footer_info table th.aboutus{
+    width: 188px;
+}
+#footer_info table th.function{
+    width: 120px;
+}
+#footer_info table th.back{
+    width: 130px;
+}
+#footer_info table td a{
+    color: #858585;
+}
+#footer_bottom{
+    width: 100%;
+    height: 4px;
+    background: url(../img/footer.jpg);
+}
+/*the end of the footer*/
